@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Inria Sans');
+@import url('https://fonts.googleapis.com/css?family=Inria Serif');
+@import url('https://fonts.googleapis.com/css?family=Inknut Antiqua');
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+.header-text {
+  margin: 30px 0 20px;
+  text-align: center;
+  color: #3C3030;
+  font-family: "Iowan Old Style";
+  font-size: 84px;
+}
+
+@media(max-width:576px) {
+  .header-text {
+    font-size: 35px;
+  }
+}
+
+.header-image {
+  margin-bottom: 20px;
+}
+
+@media(max-width:576px) {
+  .header-image {
+    width: 25px;
+    margin-bottom: 8px;
+  }
+}
+
+.hr {
+  margin: 5px 0;
+  border: #3C3030 solid 1px;
+}
+
+.search-container {
+  margin-top: 70px;
+  margin-bottom: 90px;
+}
+
+@media(max-width:576px) {
+  .search-container {
+    margin: 60px 0px;
+  }
+}
+
+.search-group {
+  float: left;
+  border: #3C3030 solid 1px;
+}
+
+.search-icon {
+  height: 30px;
+  margin-left: 10px;
+}
+
+.input-text {
+  width: 235px;
+  height: 58px;
+  font-size: 20px;
+  border: none;
+  font-family: "Iowan Old Style";
+}
+
+.button-go {
+  width: 61px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Iowan Old Style";
+  background-color: #E84848;
+  color: #FDFDFA;
+  border: none;
+}
+
+.top-news {
+  color: #D02424;
+  font-family: "Inria Sans";
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+
+.col-lg-4 {
+  margin-bottom: 90px;
+}
+
+@media(max-width:576px) {
+  .col-lg-4 {
+    margin-bottom: 60px;
+  }
+}
+
+.article-image {
+  width: 100%;
+}
+
+.title {
+  font-family: "Inknut Antiqua";
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.paragraph {
+  font-family: Inter;
+}
+
+.article-image {
+  margin-bottom: 15px;
+}
+
+@media(max-width:576px) {
+  .article-image {
+    width: 100%;
+  }
+}
+
+.read-article {
+  margin-right: 10px;
+  font-family: "Inria Sans";
+}
+
+.footer-text {
+  text-align: center;
+  font-family: "Inria Serif";
+  font-size: 16px;
+  padding: 60px 0;
+  border-top: #3C3030 solid 1px;
+}
+
+@media(max-width:576px) {
+  .footer-text {
+    padding: 25px 0 50px;
+  }
+}
+
+.elipse-image {
+  margin-bottom: 4px;
+}
+
