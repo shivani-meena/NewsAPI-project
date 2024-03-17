@@ -62,6 +62,10 @@
   font-family: "Iowan Old Style";
 }
 
+input:focus{
+  outline:none ;
+}
+
 .button-go {
   width: 61px;
   height: 60px;

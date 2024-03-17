@@ -1,14 +1,15 @@
-function Article({image, title, description, newsUrl}){
+function Article({article}){
     return(
         <div class="article">
-            <img class="article-image" src={image}/>
-            <div class="title">{title}</div>
-            <p class="paragraph">{description}</p>
+            <img class="article-image" src={article.image}/>
+            <div class="title">{article.title}</div>
+            <p class="paragraph">{article.description}</p>
             <span class="read-article">Read full article...</span>
-            <a href={newsUrl} class="link">
+            <a href={article.newsUrl} class="link">
                 <img src="arrow.png" />
             </a>
         </div>
     )
-}
+};
+
 export default Article;

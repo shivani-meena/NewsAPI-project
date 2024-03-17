@@ -1,4 +1,4 @@
-export const articles = [
+export let articles = [
     {
         title: "Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss",
         description: "NASA's rover Perseverance has gathered data confirming the existence of ancient lake sediments deposited by water that once filled a giant basin on Mars called Jerezo Crater, according to a study published on Friday.",
