@@ -98,6 +98,10 @@ input:focus{
   width: 100%;
 }
 
+.article-image {
+  margin-bottom: 15px;
+}
+
 .title {
   font-family: "Inknut Antiqua";
   font-size: 18px;
@@ -107,10 +111,6 @@ input:focus{
 
 .paragraph {
   font-family: Inter;
-}
-
-.article-image {
-  margin-bottom: 15px;
 }
 
 @media(max-width:576px) {
